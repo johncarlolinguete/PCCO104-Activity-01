@@ -4,7 +4,9 @@ class Program
 {
     public static void Main(string[] args)
     {
-        string firstName = john;
-        Console.WriteLine($"Hello World {firstName}");
+        string firstName = "john";
+        string lastName = "Linguete";
+        int age = 18;
+        Console.WriteLine($"Hello World {firstName} {lastName} age: {age}");
     }
 }
